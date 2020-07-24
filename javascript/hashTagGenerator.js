@@ -31,9 +31,10 @@ function generateHashTag (str) {
     }
 }
 
-
 function testingUnit(stringInput, expectedOutput) {
+    // test the unit 
     if (expectedOutput == generateHashTag(stringInput)) {
+        // run through the function and see if return value matches expected
         console.log("Test PASSED for " + stringInput)
     } else {
         console.log("Test FAILED for " + stringInput)
